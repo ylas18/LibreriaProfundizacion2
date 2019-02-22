@@ -29,10 +29,10 @@ public class Inventario {
 
     /**
      * Este constructor recibe los parametros minimos para ejecutar los metodos en esta clase
-     * @param idInventario
-     * @param idLibro
-     * @param cantidadBodega
-     * @param minimo 
+     * @param idInventario Identificador del inventario
+     * @param idLibro Identificador del libro
+     * @param cantidadBodega Cantidad de libros en bodega
+     * @param minimo Cantidad de libros minimo que puede tener cada libro
      */
     public Inventario(int idInventario, int[] idLibro, int cantidadBodega, int minimo) {
         this.idInventario = idInventario;

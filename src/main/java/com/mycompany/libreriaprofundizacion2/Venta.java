@@ -33,11 +33,11 @@ public class Venta {
 
     /**
      * Este contructor recilbe los parametros minimos para ejecutar los metodos que estan en la clase Venta
-     * @param idVenta
-     * @param idFactura
-     * @param idLibro
-     * @param cantidad
-     * @param total 
+     * @param idVenta Identificador unico para cada venta
+     * @param idFactura Identificador unico de cada factura
+     * @param idLibro Identificador unico de cada libro
+     * @param cantidad Parametro que trae la cantidad de libros vendidos
+     * @param total Total de venta
      */
     public Venta(int idVenta, int idFactura, int idLibro, int cantidad, double total) {
         this.idVenta = idVenta;
